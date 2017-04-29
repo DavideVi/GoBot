@@ -2,7 +2,6 @@ package main
 
 import (
     "net/http"
-
     "github.com/gorilla/mux"
 )
 
@@ -35,5 +34,5 @@ var routes = Routes{
         "POST",
         "/message",
         ProcessMessage,
-    }
+    },
 }

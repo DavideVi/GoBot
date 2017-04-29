@@ -12,15 +12,15 @@ POST to `/message` to send message to bot. Message format is JSON.
 }
 ```
 
-Bot receives message and looks into `handlers.json`.
+Bot receives message and looks into `commands.json`.
 
-The handlers file is used to determine which script to execute based on a regular
+The commands file is used to determine which script to execute based on a regular
 expression.
 
 **Example:**
 ```
 {
-  "handlers": [
+  "commands": [
     {
       "regex": "/(?:enable the)(.*)|(?:Enable the)(.*)|(?:enable)(.*)/g",
       "handler": "enable.py",

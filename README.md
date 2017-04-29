@@ -41,4 +41,4 @@ expression.
 ```
 
 All regexes are checked and if they match then the script is executed. Capture
-groups will be passed as parameters. Stdout will be returned to the user.
+groups and user will be passed as parameters. Stdout will be returned to the user.

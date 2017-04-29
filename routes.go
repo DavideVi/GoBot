@@ -31,15 +31,9 @@ func NewRouter() *mux.Router {
 
 var routes = Routes{
     Route{
-        "Index",
-        "GET",
-        "/",
-        Index,
-    },
-    Route{
-        "TodoIndex",
+        "ProcessMessage",
         "POST",
         "/message",
-        TodoIndex,
+        ProcessMessage,
     }
 }
